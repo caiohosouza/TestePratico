@@ -1,0 +1,23 @@
+{
+  "name": "TestePratico",
+  "version": "1.0.0",
+  "description": "VR Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiohosouza/TestePratico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiohosouza/TestePratico/issues"
+  },
+  "homepage": "https://github.com/caiohosouza/TestePratico#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  }
+}
