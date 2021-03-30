@@ -2,16 +2,24 @@
   "name": "testepratico",
   "version": "1.0.0",
   "description": "VR Software",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/caiohosouza/TestePratico.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node.js",
+    "api",
+    "crud",
+    "postgresql"
+  ],
+  "author": "Caio Oliveira",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/caiohosouza/TestePratico/issues"
